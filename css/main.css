@@ -1,0 +1,26 @@
+body {
+    margin-top: 75px;
+}
+
+#navigation {
+    background-image: url('../images/light_wool/light_wool.png');
+}
+
+#navigation li a {
+    font-variant: small-caps;
+    text-transform: lowercase;
+}
+
+#navigation li.active a {
+    color: white;
+    background-color: #5CB85C;
+}
+
+.footer {
+    background-image: url('../images/debut_light/debut_light.png');
+    border-top:1px solid #aaa;
+    color: #444;
+    font-size:13px;
+    line-height:50px;
+    text-align: center;
+}
